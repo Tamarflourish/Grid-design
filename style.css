@@ -3,13 +3,24 @@
     padding: 0;
     box-sizing: border-box;
   }
+  h2{
+    color: #fff;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 500px;
+  } 
   body {
     background-color: black;
+    background-position: center;
     display: flex;
     place-items: center;
     min-height: 100vh;
   }
   main {
+   
     display: grid;
     grid-template-areas:
       "a a b"
@@ -17,7 +28,7 @@
       "c e e";
     gap: 5px;
     width: 50%;
-    margin: auto;
+    margin: -70px;
     height: 100%;
   }
   main div {
@@ -45,3 +56,4 @@
     background-color: rgb(0, 119, 255);
     grid-area: e;
   }
+  
